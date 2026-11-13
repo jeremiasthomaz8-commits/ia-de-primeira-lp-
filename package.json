@@ -1,0 +1,11 @@
+{
+  "name": "ia-de-primeira-landing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/lead.js"
+  },
+  "engines": { "node": ">=22" }
+}
